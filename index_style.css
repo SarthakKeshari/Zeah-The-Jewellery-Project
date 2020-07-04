@@ -41,6 +41,7 @@ nav button{
 
 #navbarNav{
 	justify-content: flex-end;
+	transition: 1.5s;
 }
 
 .nav-link{
@@ -99,22 +100,31 @@ nav button{
 	margin-top: 15px; 
 }
 
-.side-icon{
-	width: 12%; 
-	height: 100%;
+
+#mymain{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	background-color: black;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
+}
+
+.side-icon{ 
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
 	align-items: center;
 }
 
 .side-icon img{
-	width: 70%;
+    width: 25%;
 	border-radius: 50%;
-	padding: 5px;
-	margin: 5px;
-	margin-top: 20px;
-	box-shadow: 0px 0px 2px white;
+	margin-bottom: 5px;
+	padding: 2px;
+	box-shadow: 0px 0px 4px white;
 }
 
 .media{

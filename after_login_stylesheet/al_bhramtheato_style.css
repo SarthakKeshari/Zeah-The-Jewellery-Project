@@ -29,6 +29,7 @@ nav{
 
 #navbarNav{
 	justify-content: flex-end;
+	transition: 1.5s;
 }
 
 .nav-link{

@@ -33,6 +33,7 @@ nav button{
 
 #navbarNav{
 	justify-content: flex-end;
+	transition: 1.5s;
 }
 
 .nav-link{
@@ -55,6 +56,10 @@ nav button{
 	text-align: center;
 }
 
+.side-icon .icon-bigger{
+	width: 40%;
+}
+
 .side-icon{ 
     display: flex;
     background-color: black;
@@ -72,6 +77,13 @@ nav button{
 
 .side-icon img {
 	box-shadow: 0px 0px 2px white;
+}
+
+#mymain{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
 }
 
 .about{
@@ -93,6 +105,10 @@ nav button{
 
 #follow-us{
 	color: gold;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #follow{
